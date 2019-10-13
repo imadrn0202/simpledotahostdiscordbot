@@ -131,7 +131,7 @@ async def leavelobby(ctx):
         global membersId
         global max_slot
 
-        memberId = ctx.author.name
+        memberId = ctx.author.id
         
         if memberId in membersId:
             members.remove(member)
