@@ -9,13 +9,16 @@ from discord.utils import get
 
 
 client = commands.Bot(command_prefix='#')
-
+#do not edit this part
 hostname =''
 slot = 0
 members = []
 membersId = []
 
-max_slot = 1
+
+
+#edit this part
+max_slot = 10
 
 main_lobby_channel = 'beginner-lobby-1'
 main_lobby_channel_id = 633000398252277798
