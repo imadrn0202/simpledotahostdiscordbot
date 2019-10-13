@@ -131,6 +131,7 @@ async def leavelobby(ctx):
         global membersId
         global max_slot
 
+        member = ctx.author.name
         memberId = ctx.author.id
         
         if memberId in membersId:
