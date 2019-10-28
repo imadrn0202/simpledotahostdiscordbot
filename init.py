@@ -153,8 +153,6 @@ async def deletelobby(ctx):
         global members
         global membersId
 
-        memberId = ctx.author.name
-        
         await ctx.channel.send(ctx.author.mention +' deleted the lobby: ' + hostname)
         hostname =''
         slot = 0
