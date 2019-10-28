@@ -161,4 +161,4 @@ async def deletelobby(ctx):
     
 
 
-client.run('NjMxODQwMzQ3NDMzMjA1Nzky.XbbQjA.VVfutyH2KPWkM_aiISU0MfDK_40') # Add bot token here
+client.run('NjMxODQwMzQ3NDMzMjA1Nzky.XbbQ1g.O9iUZXzLM6tvPR-nmAFSlCfa5Rg') # Add bot token here
