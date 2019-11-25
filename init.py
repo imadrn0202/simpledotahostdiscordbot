@@ -158,7 +158,20 @@ async def deletelobby(ctx):
         slot = 0
         members = []
         membersId = []
+
+@client.command()
+async def registered(ctx):
+    if ctx.channel.name == main_lobby_channel:
+
+        global hostname
+        global slot
+        global members
+        global membersId
+
+        await ctx.channel.send(members)
+    
+
     
 
 
-client.run('NjMxODQwMzQ3NDMzMjA1Nzky.XbbQ1g.O9iUZXzLM6tvPR-nmAFSlCfa5Rg') # Add bot token here
+client.run('NjMxNzU3NTk3NTczMzgyMTQ0.XbbSPA.GFco60dROzkHOW1HUXgeq42yHNo')
